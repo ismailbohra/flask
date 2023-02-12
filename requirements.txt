@@ -5,9 +5,10 @@ itsdangerous==1.1.0
 Jinja2==2.11.3
 MarkupSafe==1.1.1
 Werkzeug==1.0.1
-flask
-pandas
-numpy
-requests
-sklearn
-gunicorn
+flask==1.1.2
+pandas==1.1.0
+numpy==1.19.2
+requests==2.24.0
+scikit-learn==0.24.0
+gunicorn==20.0.4
+
