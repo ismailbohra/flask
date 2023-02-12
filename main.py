@@ -6,7 +6,6 @@ import requests
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 count = CountVectorizer()
-portnumber=process.env.PORT || 5000
 app = Flask(__name__)
 
 movie_dict = pickle.load(
